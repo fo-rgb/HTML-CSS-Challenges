@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  
 }
 
 header {
@@ -12,11 +13,14 @@ header {
 nav {
   display: inline-block;
   width: 100%;
+  color:black;
 }
 
 header ul {
   margin: 20px 0 0 0;
   padding: 0;
+  background-color: whitesmoke;
+  
 }
 
 header ul li {
@@ -31,6 +35,10 @@ section {
 
 img {
   border: 5px solid #8075ff;
+}
+#logo{
+  border: none;
+  
 }
 
 h1,
@@ -76,6 +84,7 @@ footer {
 }
 
 .introduction {
+  background: white;
 }
 
 #badge {
@@ -106,11 +115,20 @@ footer {
 .image-container img {
   vertical-align: top;
   border: 5px solid #747c92;
+  display: block;
 }
 
 .image-container img:first-of-type {
   vertical-align: bottom;
+  background-color: chartreuse;
 }
+.image-container img:nth-of-type(2) {
+  background-color: coral;
+}
+.image-container img:last-of-type {
+  background-color:red;
+}
+
 
 .tigers {
   background-color: #0b3c49;
@@ -191,5 +209,17 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: inline-block;
+}
+body{
+  background-color: black;
+}
+#but1{
+  background-color: brown;
+}
+#but2{
+  background-color:darkgoldenrod;
+}
+#but3{
+  background-color:green;
 }
